@@ -3,7 +3,8 @@
 scoreboard objectives add _TALK dummy
 scoreboard players set $util:count _TALK 0
 
-## TODO: 会話情報の取得
+## 会話情報の取得
+execute store result score $util:count _TALK run data get storage talk temp
 
 ## 会話開始
 function util:talk/main
