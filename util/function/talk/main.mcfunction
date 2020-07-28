@@ -3,12 +3,12 @@
 scoreboard players remove $util:count _TALK 1
 
 ## 会話内容
-execute if score $util:count _TALK matches 16 run tellraw @a {"interpret":true,"storage":"talk","nbt":"temp[15]"}
-execute if score $util:count _TALK matches 15 run tellraw @a {"interpret":true,"storage":"talk","nbt":"temp[14]"}
-execute if score $util:count _TALK matches 14 run tellraw @a {"interpret":true,"storage":"talk","nbt":"temp[13]"}
-execute if score $util:count _TALK matches 13 run tellraw @a {"interpret":true,"storage":"talk","nbt":"temp[12]"}
-execute if score $util:count _TALK matches 12 run tellraw @a {"interpret":true,"storage":"talk","nbt":"temp[11]"}
-execute if score $util:count _TALK matches 11 run tellraw @a {"interpret":true,"storage":"talk","nbt":"temp[10]"}
+execute if score $util:count _TALK matches 15 run tellraw @a {"interpret":true,"storage":"talk","nbt":"temp[15]"}
+execute if score $util:count _TALK matches 14 run tellraw @a {"interpret":true,"storage":"talk","nbt":"temp[14]"}
+execute if score $util:count _TALK matches 13 run tellraw @a {"interpret":true,"storage":"talk","nbt":"temp[13]"}
+execute if score $util:count _TALK matches 12 run tellraw @a {"interpret":true,"storage":"talk","nbt":"temp[12]"}
+execute if score $util:count _TALK matches 11 run tellraw @a {"interpret":true,"storage":"talk","nbt":"temp[11]"}
+execute if score $util:count _TALK matches 10 run tellraw @a {"interpret":true,"storage":"talk","nbt":"temp[10]"}
 execute if score $util:count _TALK matches 9 run tellraw @a {"interpret":true,"storage":"talk","nbt":"temp[9]"}
 execute if score $util:count _TALK matches 8 run tellraw @a {"interpret":true,"storage":"talk","nbt":"temp[8]"}
 execute if score $util:count _TALK matches 7 run tellraw @a {"interpret":true,"storage":"talk","nbt":"temp[7]"}
