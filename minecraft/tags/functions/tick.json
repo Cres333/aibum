@@ -1,6 +1,8 @@
 {
   "values": [
+    "util:other",
     "util:point/loop",
-    "util:drawn/loop"
+    "util:drawn/loop",
+    "util:teleport/loop"
   ]
 }
